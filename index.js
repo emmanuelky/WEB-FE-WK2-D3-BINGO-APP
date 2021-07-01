@@ -17,3 +17,8 @@ const displayBoardNumbers = function () {
         boardContainerNode.appendChild(newBoardNode)
     }
 }
+
+const randomNumber = function () {
+    let randomButton = document.querySelector("random-button")
+    alert("hello")
+}
