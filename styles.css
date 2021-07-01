@@ -24,16 +24,29 @@ h1 {
 }
 
 .board{
-    background-color: #244415;
+    background-color: rgb(36, 68, 21);
     display: inline-block;
     width: 4%;
-    min-height: 60px;
+    min-height: 5px;
     text-align: center;
-    padding-top: 36px;
-    font-size: larger;
     font-weight: bold;
     border-style: solid;
-    border-radius: 86px;
-    margin: 12px;
-    border-color: #fffdfd;
+    margin: 11px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#random-button{
+    background-color: rgb(228, 233, 225);
+    display: inline-block;
+    
+    min-height: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-style: solid;
+    margin: 11px;
+    border-radius: 10%;
+    padding: 10px;
+    color: black;
+    align-self: center;
 }
